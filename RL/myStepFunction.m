@@ -1,7 +1,4 @@
 function [NextObs,Reward,IsDone,LoggedSignals] = myStepFunction(Action,LoggedSignals)
-% Custom step function to construct cart-pole environment for the function
-% name case.
-%
 % This function applies the given action to the environment and evaluates
 % the system dynamics for one simulation step.
 
